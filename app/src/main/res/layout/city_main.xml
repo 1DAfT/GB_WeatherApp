@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+    <Switch
+        android:id="@+id/city_windSpeedSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/check_windSpeed"
+        android:textSize="25sp" />
+
+    <Switch
+        android:id="@+id/city_humiditySwitch"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/check_humidity"
+        android:textSize="25sp" />
+
+    <Switch
+        android:id="@+id/city_pressureSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/city_pressure"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/city_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:inputType="textPersonName"
+        android:paddingBottom="10dp"
+        android:text="@string/city"
+        android:textSize="25sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/city_name1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/cityMoscow"
+                android:clickable="true"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/city_name2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/citySaintPetersberg"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/city_name3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/cityKazan"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/city_name4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/cityKrasnoyarsk"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/city_name5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/cityVladivostok"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/city_name6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/cityKaliningrad"
+                android:textSize="25sp" />
+            <TextView
+                android:id="@+id/city_name7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/cityLondon"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/city_name8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/cityNewYork"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/city_name9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/cityTokyo"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/city_name10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/citySanFrancisco"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
