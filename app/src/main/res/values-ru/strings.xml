@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="city">Город</string>
+    <string name="windSpeed">1м/с, Ю</string>
+    <string name="humidity">80%</string>
+    <string name="main_pressure">748мм</string>
+
+    <string name="day1_name">Day 1</string>
+    <string name="day2_name">Day 2</string>
+    <string name="day3_name">Day 3</string>
+    <string name="day4_name">Day 4</string>
+    <string name="day5_name">Day 5</string>
+    <string name="day6_name">Day 6</string>
+    <string name="day7_name">Day 7</string>
+
+    <string name="check_windSpeed">Скорость ветра</string>
+    <string name="check_humidity">Влажность</string>
+    <string name="city_pressure">Atm. pressure</string>
+
+    <string name="cityMoscow">Moscow</string>
+    <string name="citySaintPetersberg">Saint Petersberg</string>
+    <string name="cityKazan">Kazan</string>
+    <string name="cityKrasnoyarsk">Krasnoyarsk</string>
+    <string name="cityVladivostok">Vladivostok</string>
+    <string name="cityKaliningrad">Kaliningrad</string>
+    <string name="cityLondon">London</string>
+    <string name="cityNewYork">New-York</string>
+    <string name="cityTokyo">Tokyo</string>
+    <string name="citySanFrancisco">San Francisco</string>
+
+</resources>
