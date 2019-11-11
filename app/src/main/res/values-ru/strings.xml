@@ -27,5 +27,7 @@
     <string name="cityNewYork">New-York</string>
     <string name="cityTokyo">Tokyo</string>
     <string name="citySanFrancisco">San Francisco</string>
+    <string name="cityPekin">Pekin</string>
+    <string name="city_backButton">Back</string>
 
 </resources>
