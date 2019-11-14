@@ -4,7 +4,7 @@
     <string name="city">City</string>
     <string name="windSpeed">1m/s, S</string>
     <string name="humidity">80%</string>
-    <string name="main_pressure">748mm</string>
+    <string name="pressure">748mm</string>
 
     <string name="day7_temp">+27°</string>
     <string name="day7_name">Day 7</string>

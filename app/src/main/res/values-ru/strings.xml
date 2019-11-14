@@ -3,7 +3,7 @@
     <string name="city">Город</string>
     <string name="windSpeed">1м/с, Ю</string>
     <string name="humidity">80%</string>
-    <string name="main_pressure">748мм</string>
+    <string name="pressure">748мм</string>
 
     <string name="day1_name">Day 1</string>
     <string name="day2_name">Day 2</string>

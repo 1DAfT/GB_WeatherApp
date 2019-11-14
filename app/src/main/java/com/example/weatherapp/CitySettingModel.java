@@ -1,8 +1,8 @@
 package com.example.weatherapp;
 
 public class CitySettingModel {
-    boolean WindSw = true, HumiditySw = true, PressureSw =true;
-    String cityName = "Moscow";
+    boolean WindSw = false, HumiditySw = false, PressureSw = false;
+    String cityName = "City";
 
     private static  CitySettingModel instance;
     public static CitySettingModel getInstance(){
