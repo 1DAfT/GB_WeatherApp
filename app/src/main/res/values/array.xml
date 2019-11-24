@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="city_list_array">
+        <item>cityMoscow</item>
+        <item>citySaintPetersberg</item>
+        <item>cityKazan</item>
+        <item>cityKrasnoyarsk</item>
+        <item>cityVladivostok</item>
+        <item>cityKaliningrad</item>
+        <item>cityLondon</item>
+        <item>cityNewYork</item>
+        <item>cityTokyo</item>
+        <item>citySanFrancisco</item>
+        <item>cityPekin</item>
+    </string-array>
+    <string-array name="days_array">
+        <item>day1_name</item>
+        <item>day2_name</item>
+        <item>day3_name</item>
+        <item>day4_name</item>
+        <item>day5_name</item>
+        <item>day6_name</item>
+        <item>day7_name</item>
+    </string-array>
+    <string-array name="days_temperature_array">
+        <item>day1_temp</item>
+        <item>day2_temp</item>
+        <item>day3_temp</item>
+        <item>day4_temp</item>
+        <item>day5_temp</item>
+        <item>day6_temp</item>
+        <item>day7_temp</item>
+    </string-array>
+</resources>

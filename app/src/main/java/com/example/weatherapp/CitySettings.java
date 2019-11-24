@@ -13,8 +13,6 @@ import android.widget.TextView;
 public class CitySettings extends MainActivity {
     private EditText citySearch;
     private Switch Wind, Humidity, Pressure;
-    private static String CITY_NAME = "City", SWW = "Wind", SWP = "Pressure", SWH = "Humidity";
-    private static final String LOG2 = "CityActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,44 +27,30 @@ public class CitySettings extends MainActivity {
         Pressure = findViewById(R.id.city_pressureSwitch);
         citySearch = findViewById(R.id.city_search);
 
-        setText((TextView)findViewById(R.id.city_name1));
-        setText((TextView)findViewById(R.id.city_name2));
-        setText((TextView)findViewById(R.id.city_name3));
-        setText((TextView)findViewById(R.id.city_name4));
-        setText((TextView)findViewById(R.id.city_name5));
-        setText((TextView)findViewById(R.id.city_name6));
-        setText((TextView)findViewById(R.id.city_name7));
-        setText((TextView)findViewById(R.id.city_name8));
-        setText((TextView)findViewById(R.id.city_name9));
-        setText((TextView)findViewById(R.id.city_name10));
-        setText((TextView)findViewById(R.id.city_name11));
-
-        restoreData(savedInstanceState);
+        restoreData();
 
         Button backButton = findViewById(R.id.city_BackButton);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                saveData();
                 onBack();
             }
         });
     }
 
-    private void setText(final TextView text){
-        text.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ((EditText)findViewById(R.id.city_search)).setText(text.getText().toString());
-            }
-        });
+    private void restoreData() {
+        Wind.setChecked(CitySettingModel.getInstance().isWindSw());
+        Humidity.setChecked(CitySettingModel.getInstance().isHumiditySw());
+        Pressure.setChecked(CitySettingModel.getInstance().isPressureSw());
+        citySearch.setText(CitySettingModel.getInstance().getCityName());
     }
 
-    private void restoreData(Bundle savedInstanceState) {
-        if(savedInstanceState == null) return;
-        Wind.setChecked(savedInstanceState.getBoolean(SWW, false));
-        Humidity.setChecked(savedInstanceState.getBoolean(SWH, false));
-        Pressure.setChecked(savedInstanceState.getBoolean(SWP, false));
-        citySearch.setText(savedInstanceState.getString(CITY_NAME, "City"));
+    public void saveData(){
+        CitySettingModel.getInstance().setWindSw(Wind.isChecked());
+        CitySettingModel.getInstance().setPressureSw(Pressure.isChecked());
+        CitySettingModel.getInstance().setHumiditySw(Humidity.isChecked());
+        CitySettingModel.getInstance().setCityName(citySearch.getText().toString());
     }
 
     public void onBack(){
@@ -79,9 +63,4 @@ public class CitySettings extends MainActivity {
         finish();
     }
 
-//    @Override
-//    protected void onSaveInstanceState(Bundle outState) {
-//        super.onSaveInstanceState(outState);
-//        outState.putString(city_Name, citySearch.getText().toString());
-//    }
 }
