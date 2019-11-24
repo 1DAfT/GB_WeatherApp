@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/city_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/city_BackButton"
+        app:layout_constraintVertical_weight="1">
+
+
+        <Switch
+            android:id="@+id/city_pressureSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/city_pressure"
+            android:textSize="25sp" />
+
+        <Switch
+            android:id="@+id/city_windSpeedSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:showText="false"
+            android:text="@string/check_windSpeed"
+            android:textSize="25sp" />
+
+        <Switch
+            android:id="@+id/city_humiditySwitch"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/check_humidity"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/city_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoText="true"
+            android:focusable="auto"
+            android:inputType="textPersonName"
+            android:paddingBottom="10dp"
+            android:text="@string/city"
+            android:textSize="25sp" />
+
+
+        <fragment
+            android:id="@+id/city_list_fragment"
+            android:name="com.example.weatherapp.CityListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E6E6E6"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/city_BackButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/city_backButton"
+        app:layout_constraintTop_toBottomOf="@+id/city_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_weight="1"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

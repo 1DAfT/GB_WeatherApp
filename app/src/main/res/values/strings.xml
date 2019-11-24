@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">WeatherApp</string>
+    <string name="temperature">+20°</string>
+    <string name="city">City</string>
+    <string name="windSpeed">1m/s, S</string>
+    <string name="humidity">80%</string>
+    <string name="pressure">748mm</string>
+
+    <string name="day7_temp">+27°</string>
+    <string name="day7_name">Day 7</string>
+    <string name="day6_temp">+26°</string>
+    <string name="day6_name">Day 6</string>
+    <string name="day5_temp">+25°</string>
+    <string name="day5_name">Day 5</string>
+    <string name="day4_temp">+24°</string>
+    <string name="day4_name">Day 4</string>
+    <string name="day3_temp">+23°</string>
+    <string name="day3_name">Day 3</string>
+    <string name="day2_temp">+22°</string>
+    <string name="day2_name">Day 2</string>
+    <string name="day1_temp">+21°</string>
+    <string name="day1_name">Day 1</string>
+
+    <string name="check_windSpeed">Wind speed</string>
+    <string name="check_humidity">Air humidity</string>
+    <string name="city_pressure">Atm. pressure</string>
+
+    <string name="cityMoscow">Moscow</string>
+    <string name="citySaintPetersberg">Saint Petersberg</string>
+    <string name="cityKazan">Kazan</string>
+    <string name="cityKrasnoyarsk">Krasnoyarsk</string>
+    <string name="cityVladivostok">Vladivostok</string>
+    <string name="cityKaliningrad">Kaliningrad</string>
+    <string name="cityLondon">London</string>
+    <string name="cityNewYork">New-York</string>
+    <string name="cityTokyo">Tokyo</string>
+    <string name="citySanFrancisco">San Francisco</string>
+    <string name="cityPekin">Pekin</string>
+    <string name="city_backButton">Back</string>
+
 </resources>
