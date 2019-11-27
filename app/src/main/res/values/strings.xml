@@ -26,7 +26,7 @@
     <string name="city_pressure">Atm. pressure</string>
 
     <string name="cityMoscow">Moscow</string>
-    <string name="citySaintPetersberg">Saint Petersberg</string>
+    <string name="citySaintPetersburg">Saint Petersburg</string>
     <string name="cityKazan">Kazan</string>
     <string name="cityKrasnoyarsk">Krasnoyarsk</string>
     <string name="cityVladivostok">Vladivostok</string>
@@ -35,7 +35,9 @@
     <string name="cityNewYork">New-York</string>
     <string name="cityTokyo">Tokyo</string>
     <string name="citySanFrancisco">San Francisco</string>
-    <string name="cityPekin">Pekin</string>
+    <string name="cityPeking">Peking</string>
     <string name="city_backButton">Back</string>
+    <string name="city_Input">City</string>
+    <string name="city_okButton">OK</string>
 
 </resources>

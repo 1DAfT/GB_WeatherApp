@@ -2,7 +2,7 @@
 <resources>
     <string-array name="city_list_array">
         <item>cityMoscow</item>
-        <item>citySaintPetersberg</item>
+        <item>citySaintPetersburg</item>
         <item>cityKazan</item>
         <item>cityKrasnoyarsk</item>
         <item>cityVladivostok</item>
@@ -11,7 +11,7 @@
         <item>cityNewYork</item>
         <item>cityTokyo</item>
         <item>citySanFrancisco</item>
-        <item>cityPekin</item>
+        <item>cityPeking</item>
     </string-array>
     <string-array name="days_array">
         <item>day1_name</item>

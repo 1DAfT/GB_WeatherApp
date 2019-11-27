@@ -33,6 +33,13 @@ public class CitySettings extends MainActivity {
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                onBackPressed();
+            }
+        });
+        Button okButton = findViewById(R.id.city_okButton);
+        okButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 saveData();
                 onBack();
             }

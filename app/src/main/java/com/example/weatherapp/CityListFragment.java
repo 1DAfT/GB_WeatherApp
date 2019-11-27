@@ -3,6 +3,7 @@ package com.example.weatherapp;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -36,6 +37,10 @@ public class CityListFragment extends Fragment {
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(layoutManager);
+
+        DividerItemDecoration itemDecoration = new DividerItemDecoration(getActivity(), LinearLayoutManager.VERTICAL);
+        itemDecoration.setDrawable(getActivity().getDrawable(R.drawable.separator));
+        recyclerView.addItemDecoration(itemDecoration);
 
         recyclerView.setAdapter(new CityListAdapter(cityList, new CityListClickListner() {
             @Override

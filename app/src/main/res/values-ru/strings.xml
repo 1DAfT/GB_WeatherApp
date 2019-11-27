@@ -5,29 +5,31 @@
     <string name="humidity">80%</string>
     <string name="pressure">748мм</string>
 
-    <string name="day1_name">Day 1</string>
-    <string name="day2_name">Day 2</string>
-    <string name="day3_name">Day 3</string>
-    <string name="day4_name">Day 4</string>
-    <string name="day5_name">Day 5</string>
-    <string name="day6_name">Day 6</string>
-    <string name="day7_name">Day 7</string>
+    <string name="day1_name">День 1</string>
+    <string name="day2_name">День 2</string>
+    <string name="day3_name">День 3</string>
+    <string name="day4_name">День 4</string>
+    <string name="day5_name">День 5</string>
+    <string name="day6_name">День 6</string>
+    <string name="day7_name">День 7</string>
 
     <string name="check_windSpeed">Скорость ветра</string>
     <string name="check_humidity">Влажность</string>
     <string name="city_pressure">Atm. pressure</string>
 
-    <string name="cityMoscow">Moscow</string>
-    <string name="citySaintPetersberg">Saint Petersberg</string>
-    <string name="cityKazan">Kazan</string>
-    <string name="cityKrasnoyarsk">Krasnoyarsk</string>
-    <string name="cityVladivostok">Vladivostok</string>
-    <string name="cityKaliningrad">Kaliningrad</string>
-    <string name="cityLondon">London</string>
-    <string name="cityNewYork">New-York</string>
-    <string name="cityTokyo">Tokyo</string>
-    <string name="citySanFrancisco">San Francisco</string>
-    <string name="cityPekin">Pekin</string>
-    <string name="city_backButton">Back</string>
+    <string name="cityMoscow">Москва</string>
+    <string name="citySaintPetersburg">Санкт-Петербург</string>
+    <string name="cityKazan">Казань</string>
+    <string name="cityKrasnoyarsk">Красноярск</string>
+    <string name="cityVladivostok">Владивосток</string>
+    <string name="cityKaliningrad">Калининград</string>
+    <string name="cityLondon">Лондон</string>
+    <string name="cityNewYork">Нью-Йорк</string>
+    <string name="cityTokyo">Токио</string>
+    <string name="citySanFrancisco">Сан-Франциско</string>
+    <string name="cityPeking">Пекин</string>
+    <string name="city_backButton">Назад</string>
+    <string name="city_Input">Город</string>
+    <string name="city_okButton">OK</string>
 
 </resources>
